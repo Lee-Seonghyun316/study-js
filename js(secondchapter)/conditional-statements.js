@@ -25,70 +25,68 @@ console.log(favoritePerson('진로'));//ture
 console.log(favoritePerson('참이'));//false
 
 //값에 따라 다른 결과물 반환
-function getSound(animal) {
-    if (animal === '개') return '멍멍!';
-    if (animal === '고양이') return '야옹~';
-    if (animal === '참새') return '짹짹';
-    if (animal === '비둘기') return '구구 구 구';
-    return '...?';
+function getPrice(product){
+    let price = 0;
+    if(product === 'macbookPro') return 3000000;
+    if(product === 'iphoneXR') return 1000000;
+    if(product === 'lemonCandy') return 1000;
+    return '...아직 안팔아요';
 }
+console.log(getPrice('macbookPro'));//3000000
+console.log(getPrice('cookie'));//...아직 안팔아요
 
-console.log(getSound('개')); // 멍멍!
-console.log(getSound('비둘기')); // 구구 구 구
 
 //use switch : return 시 break 생략
 
-function getSound(animal) {
-    switch (animal) {
-        case '개':
-            return '멍멍!';
-        case '고양이':
-            return '야옹~';
-        case '참새':
-            return '짹짹';
-        case '비둘기':
-            return '구구 구 구';
+function getPriceSwitch(product){
+    switch (product){
+        case 'macbookPro':
+            return 3000000;
+        case  'iphoneXR':
+            return 1000000;
+        case 'lemonCandy':
+            return 1000;
         default:
-            return '...?';
+            return '...품절';
     }
 }
 
-console.log(getSound('개')); // 멍멍!
-console.log(getSound('비둘기')); // 구구 구 구략
+console.log(getPriceSwitch('사과'));//...품절
+console.log(getPriceSwitch('lemonCandy'));//1000
+
+
 
 //use object
-function getSoundObject(animal){
-    const sounds = {
-        개: '멍멍!',
-        고양이: '야옹~',
-        참새: '짹짹',
-        비둘기: '구구 구 구'
+function  getPriceObject(product){
+    const price = {
+        'macbookPro': 3000000,
+        'iphoneXR' : 1000000,
+        'lemonCandy': 1000
     };
-    return sounds[animal] || '...?';
+    return price[product] || '...품절입니다';
 }
 
-console.log(getSoundObject('개')); // 멍멍!
-console.log(getSoundObject('비둘기')); // 구구 구 구
+console.log(getPriceObject('바나나'));//...품절입니다
+console.log(getPriceObject('iphoneXR'));//1000000
+
+
 
 //use object(function)
 
-function makeSoundObject(animal) {
+function cookieObject(cookie) {
     const tasks = {
-        개() {
-            console.log('멍멍');
+        chocolateCookie() {
+            console.log('chocolateCookie판매 : 2000');
         },
-        고양이() {
-            console.log('고양이');
-        },
-        비둘기() {
-            console.log('구구 구 구');
+        vanillaCookie() {
+            console.log('vanillaCookie판매 : 2000');
         }
     };
-    if (!tasks[animal]) {
+    if (!tasks[cookie]) {
         console.log('...?');
         return;
     }
-    tasks[animal]();
+    tasks[cookie]();
 }
+cookieObject('chocolateCookie');//chocolateCookie판매 : 2000
 
-makeSoundObject('개');
