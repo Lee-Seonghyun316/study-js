@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2241c707-7a1a-40bc-9da3-e874fdb8aba4" name="Default Changelist" comment="day1">
-      <change afterPath="$PROJECT_DIR$/js(secondchapter)/unstructured-allocation.js" afterDir="false" />
+    <list default="true" id="2241c707-7a1a-40bc-9da3-e874fdb8aba4" name="Default Changelist" comment="[fix] conditional-statements.js &#10;[add] unstructured-allocation.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js(secondchapter)/conditional-statements.js" beforeDir="false" afterPath="$PROJECT_DIR$/js(secondchapter)/conditional-statements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js(secondchapter)/unstructured-allocation.js" beforeDir="false" afterPath="$PROJECT_DIR$/js(secondchapter)/unstructured-allocation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608988808161</updated>
       <workItem from="1608988809252" duration="4942000" />
-      <workItem from="1608994150953" duration="5726000" />
+      <workItem from="1608994150953" duration="6340000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1608994213398</created>
@@ -67,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608994213398</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[fix] conditional-statements.js &#10;[add] unstructured-allocation.js">
+      <created>1609049493278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609049493278</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,13 +81,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day1" />
-    <option name="LAST_COMMIT_MESSAGE" value="day1" />
+    <MESSAGE value="[fix] conditional-statements.js &#10;[add] unstructured-allocation.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="[fix] conditional-statements.js &#10;[add] unstructured-allocation.js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608994226137">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1609049500008">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608994226137" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1609049500008" />
     <state x="542" y="351" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608994177484">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
