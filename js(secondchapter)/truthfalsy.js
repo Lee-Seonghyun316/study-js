@@ -17,3 +17,5 @@ console.log(truthy);
 //not
 const simple = !!person;
 console.log(simple);
+
+//복습
