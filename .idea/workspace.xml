@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2241c707-7a1a-40bc-9da3-e874fdb8aba4" name="Default Changelist" comment="[fix] unstructured-allocation.js">
-      <change afterPath="$PROJECT_DIR$/js(secondchapter)/spread-rest.js" afterDir="false" />
+    <list default="true" id="2241c707-7a1a-40bc-9da3-e874fdb8aba4" name="Default Changelist" comment="[add] spread-rest.js">
+      <change afterPath="$PROJECT_DIR$/js(first)/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js(first)/arrayfunc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js(first)/function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js(first)/loop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js(first)/object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js(first)/objectConstructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js(first)/switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js(first)/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js(first)/variable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js(secondchapter)/anything.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js(secondchapter)/truthfalsy.js" beforeDir="false" afterPath="$PROJECT_DIR$/js(secondchapter)/truthfalsy.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +84,9 @@
       <option name="presentableId" value="Default" />
       <updated>1608988808161</updated>
       <workItem from="1608988809252" duration="4942000" />
-      <workItem from="1608994150953" duration="8399000" />
+      <workItem from="1608994150953" duration="8752000" />
+      <workItem from="1610250643817" duration="5153000" />
+      <workItem from="1610524987189" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1608994213398</created>
@@ -81,19 +109,43 @@
       <option name="project" value="LOCAL" />
       <updated>1609331568017</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[add] spread-rest.js">
+      <created>1609853320157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609853320157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day1" />
     <MESSAGE value="[fix] conditional-statements.js &#10;[add] unstructured-allocation.js" />
     <MESSAGE value="[fix] unstructured-allocation.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="[fix] unstructured-allocation.js" />
+    <MESSAGE value="[add] spread-rest.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] spread-rest.js" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="87" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610519809945">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="87" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1610519809945" />
     <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1609331571933">
       <screen x="0" y="23" width="1440" height="826" />
     </state>
@@ -103,9 +155,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="542" y="351" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1608994177484" />
-    <state x="750" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1608990840136">
+    <state x="750" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1610519527964">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="750" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1608990840136" />
+    <state x="750" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1610519527964" />
   </component>
 </project>
