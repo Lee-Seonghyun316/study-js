@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2241c707-7a1a-40bc-9da3-e874fdb8aba4" name="Default Changelist" comment="[add] spread-rest.js">
-      <change afterPath="$PROJECT_DIR$/js(first)/class.js" afterDir="false" />
+    <list default="true" id="2241c707-7a1a-40bc-9da3-e874fdb8aba4" name="Default Changelist" comment="[add] class.js anything.js">
+      <change afterPath="$PROJECT_DIR$/js(third)/await.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js(third)/promise.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js(secondchapter)/anything.js" beforeDir="false" afterPath="$PROJECT_DIR$/js(secondchapter)/anything.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +64,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v12.18.4/lib/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js(third)" />
+      <recent name="$PROJECT_DIR$/js(third)/async" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,7 +85,7 @@
       <workItem from="1608994150953" duration="8752000" />
       <workItem from="1610250643817" duration="5153000" />
       <workItem from="1610524987189" duration="1089000" />
-      <workItem from="1610554325423" duration="1537000" />
+      <workItem from="1610554325423" duration="4253000" />
     </task>
     <task id="LOCAL-00001" summary="day1">
       <created>1608994213398</created>
@@ -116,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610526225162</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[add] class.js anything.js">
+      <created>1610556179060</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610556179060</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,13 +153,19 @@
     <MESSAGE value="[fix] unstructured-allocation.js" />
     <MESSAGE value="[add] spread-rest.js" />
     <MESSAGE value="review" />
-    <option name="LAST_COMMIT_MESSAGE" value="review" />
+    <MESSAGE value="[add] class.js anything.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] class.js anything.js" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="87" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610519809945">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="87" y="261" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610603414337">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="87" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1610519809945" />
+    <state x="87" y="261" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.826@0.23.1440.826" timestamp="1610603414337" />
+    <state x="0" y="75" key="SettingsEditor" timestamp="1610603772472">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="0" y="75" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1610603772472" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1610526228877">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
